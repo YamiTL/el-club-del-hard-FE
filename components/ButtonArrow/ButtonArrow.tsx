@@ -1,5 +1,5 @@
 import styles from './ButtonArrow.styles';
-function LabelBreaker(props: {
+function ButtonArrow(props: {
     text: string;
     disabled: boolean;
     style: string;
@@ -16,4 +16,4 @@ function LabelBreaker(props: {
     );
 }
 
-export default LabelBreaker;
+export default ButtonArrow;
