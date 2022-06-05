@@ -1,0 +1,28 @@
+{
+  "root": true,
+  "project": {
+    "name": "Club del Hard"
+  },
+  "api": {
+    "projectId": "le3rcp7m",
+    "dataset": "production"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool",
+    "@babel/plugin-syntax-jsx"
+  ],
+  "env": {
+    "development": {
+      "plugins": ["@sanity/vision", "@babel/plugin-syntax-jsx"]
+    }
+  },
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema"
+    }
+  ]
+}
