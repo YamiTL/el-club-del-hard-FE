@@ -1,5 +1,5 @@
 import styles from './ButtonArrow.styles';
-function LabelStock(props: {
+function ButtonArrow(props: {
     text: string;
     disabled: boolean;
     style: string;
@@ -16,4 +16,4 @@ function LabelStock(props: {
     );
 }
 
-export default LabelStock;
+export default ButtonArrow;
