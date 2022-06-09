@@ -1,18 +1,18 @@
 import React from 'react';
-import MainNavBarButton from './MainNavBarButton';
+import ButtonMainNavBar from './ButtonMainNavBar';
 
 export default {
-    title: 'button/MainNavBarButton',
-    Component: MainNavBarButton,
+    title: 'button/ButtonMainNavBar',
+    Component: ButtonMainNavBar,
 };
 
-export const MainNavBarButtonStorie = (args:{
+export const ButtonMainNavBarStorie = (args:{
     text: string;
     style: string;
     onClick: Function;
     disabled?: boolean;
 }) => (
-    <MainNavBarButton 
+    <ButtonMainNavBar 
         text={args.text}
         disabled={args.disabled}
         style={args.style}
@@ -20,13 +20,13 @@ export const MainNavBarButtonStorie = (args:{
     />
 );
 
-MainNavBarButtonStorie.argTypes = {
+ButtonMainNavBarStorie.argTypes = {
     text: {control: 'text'},
     disabled: {control: 'boolean'},
     style: {control: 'text'}
 }
 
-MainNavBarButtonStorie.args ={
+ButtonMainNavBarStorie.args ={
     text: 'Test text',
     style: 'onSale',
     disabled: false,

@@ -1,5 +1,5 @@
-import styles from './MainNavBarButton.styles';
-function LabelStock(props: {
+import styles from './ButtonMainNavBar.styles';
+function ButtonMainNavBar(props: {
     text: string;
     disabled: boolean;
     style: string;
@@ -16,4 +16,4 @@ function LabelStock(props: {
     );
 }
 
-export default LabelStock;
+export default ButtonMainNavBar;
