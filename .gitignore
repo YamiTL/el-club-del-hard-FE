@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 
+pages/playground.tsx
+
 # testing
 /coverage
 
