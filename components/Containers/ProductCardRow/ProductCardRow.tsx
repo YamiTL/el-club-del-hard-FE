@@ -1,10 +1,13 @@
 import styles from './ProductCardRow.styles';
 
-function ProductCardRow(props: any)
+function ProductCardRow(props: {
+    children?: any,
+    disabled: boolean,
+})
 {
     return (
         <div
-            className = {styles.container}
+            className = {props.disabled ? styles.noPromo : styles.container}
         >
             {props.children}
         </div>

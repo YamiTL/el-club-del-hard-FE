@@ -9,10 +9,15 @@ const styles = {
         padding: "2px 0px",
         gap: "10px",
 
-        width: "40px",
-        height: "40px",
+        width: "60px",
+        height: "60px",
 
         background: "inherit",
+        $nest:{
+            '&:hover':{
+                cursor: 'pointer'
+            }
+        }
     })
 }
 
