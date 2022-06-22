@@ -7,6 +7,7 @@ const styles = {
         justifyContent: "center",
         alignItems: "center",
         padding: "0px",
+        margin: "20px",
         gap: "0px",
 
         width: "80%",

@@ -14,6 +14,7 @@ const styles = {
 
         background: "#29A8B5",
         borderRadius: "8px",
+        color:"white",
     }),
     noStock: style({
         display: "flex",
@@ -28,6 +29,7 @@ const styles = {
 
         background: "#CC3721",
         borderRadius: "8px",
+        color:"white",
     }),
     disabled: style({
         display: 'none',

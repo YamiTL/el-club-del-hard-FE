@@ -1,7 +1,7 @@
 import styles from './LabelBreaker.styles';
 function LabelPromo(props: {
-    text: string;
-    disabled: boolean;
+    text?: string;
+    disabled?: boolean;
     style: string;
 }){
     let currentStyle = props.style
