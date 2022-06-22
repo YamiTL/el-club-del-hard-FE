@@ -1,14 +1,9 @@
 import styles from './NavBar.styles';
 import ButtonMainNavBar from '../../ButtonMainNavBar/ButtonMainNavBar';
-function NavBar(props: {
-    text: string;
-    onClick: Function;
-    disabled: boolean;
-}){
+function NavBar(props: {}){
 
     return (
         <div
-            onClick = { () => props.onClick()}
             className = {styles.container}
         >
             <ButtonMainNavBar 

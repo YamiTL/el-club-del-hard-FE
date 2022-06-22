@@ -5,13 +5,15 @@ function LabelStock(props: {
     style: string;
 }){
     let currentStyle = props.style
-    return (
-        <div
-            className = {currentStyle === "onStock" ? styles.onStock: styles.noStock}
-        >
-            {props.disabled ? null : props.text}
-        </div>
-    );
+    return (<>
+        {props.disabled ? null :
+            <div
+                className = {currentStyle === "onStock" ? styles.onStock: styles.noStock}
+            >
+                {props.text}
+            </div>
+        }
+    </>);
 }
 
 export default LabelStock;

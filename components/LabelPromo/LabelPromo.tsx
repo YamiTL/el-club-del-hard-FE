@@ -5,13 +5,15 @@ function LabelPromo(props: {
     style: string;
 }){
     let currentStyle = props.style
-    return (
-        <div
-            className = {currentStyle === "onSale" ? styles.onSale: styles.mostSold}
-        >
-            {props.disabled ? null : props.text}
-        </div>
-    );
+    return (<>
+        {props.disabled ? null :
+            <div
+                className = {currentStyle === "onSale" ? styles.onSale: styles.mostSold}
+            >
+                {props.text}
+            </div>
+        }
+    </>);
 }
 
 export default LabelPromo;
