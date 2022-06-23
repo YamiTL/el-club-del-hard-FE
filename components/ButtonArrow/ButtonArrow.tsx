@@ -1,7 +1,7 @@
 import styles from './ButtonArrow.styles';
 function ButtonArrow(props: {
     text: string;
-    disabled: boolean;
+    disabled?: boolean;
     style: string;
     onClick: Function;
 }){

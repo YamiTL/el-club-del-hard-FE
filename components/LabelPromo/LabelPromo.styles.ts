@@ -14,6 +14,7 @@ const styles = {
 
         background: "#FF8F0F",
         borderRadius: "8px",
+        color:"white",
     }),
     onSale: style({
         display: "flex",
@@ -28,6 +29,7 @@ const styles = {
 
         background: "#14B24A",
         borderRadius: "8px",
+        color:"white",
     }),
     disabled: style({
         display: 'none',
