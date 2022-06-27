@@ -35,7 +35,7 @@ function ProductRow(props: {
                     imageAlt={'Product Image'}
                     productName={'Placa de video XFX AMD Radeon™ RX 6600 Speedster SWFT 210'}
                     description={'¡12 Cuotas sin Interés!'}
-                    price={'420.69pe'}
+                    price={'$ 1400.00'}
                 />
                 <ProductCard 
                     labelPromo={'Más Vendidos'} 
@@ -47,7 +47,7 @@ function ProductRow(props: {
                     imageAlt={'Product Image'}
                     productName={'Placa de video XFX AMD Radeon™ RX 6600 Speedster SWFT 210'}
                     description={'¡12 Cuotas sin Interés!'}
-                    price={'420.69pe'}
+                    price={'$ 1400.00'}
                 />
                 <ProductCard 
                     labelPromo={'En Oferta'} 
@@ -59,7 +59,7 @@ function ProductRow(props: {
                     imageAlt={'Product Image'}
                     productName={'Placa de video XFX AMD Radeon™ RX 6600 Speedster SWFT 210'}
                     description={'¡12 Cuotas sin Interés!'}
-                    price={'420.69pe'}
+                    price={'$ 1400.00'}
                 />
                 <ProductCard 
                     labelPromo={'En Oferta'} 
@@ -71,7 +71,7 @@ function ProductRow(props: {
                     imageAlt={'Product Image'}
                     productName={'Placa de video XFX AMD Radeon™ RX 6600 Speedster SWFT 210'}
                     description={'¡12 Cuotas sin Interés!'}
-                    price={'420.69pe'}
+                    price={'$ 1400.00'}
                 />
                 <ButtonArrow 
                     text={'▶'}

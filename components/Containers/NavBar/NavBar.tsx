@@ -9,22 +9,27 @@ function NavBar(props: {}){
             <ButtonMainNavBar 
                 text={"Categorias"} 
                 disabled={false} 
+                style={"buttonMainNavBar"}
                 onClick={Function} />
             <ButtonMainNavBar 
                 text={"Button 1"} 
                 disabled={false} 
+                style={"buttonMainNavBar"}
                 onClick={Function} />
             <ButtonMainNavBar 
                 text={"Button 2"} 
                 disabled={false} 
+                style={"buttonMainNavBar"}
                 onClick={Function} />
             <ButtonMainNavBar 
                 text={"Mi cuenta"} 
                 disabled={false} 
+                style={"buttonMainNavBar"}
                 onClick={Function} />
             <ButtonMainNavBar 
                 text={"Help"} 
                 disabled={false} 
+                style={"buttonMainNavBar"}
                 onClick={Function} />
         </div>
     );
