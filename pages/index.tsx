@@ -4,10 +4,11 @@ import FooterFullContainer from '../components/Containers/FooterFullContainer/Fo
 import ProductRow from '../components/Containers/ProductRow/ProductRow';
 import BannerContainer from '../components/Containers/BannerContainer/index';
 import { CarouselItem } from '../components/Containers/BannerContainer/BannerContainer';
+import HeaderTop from '../components/Containers/HeaderTop/HeaderTop';
 
 const Home: NextPage = () => {
   return (<>
-    <h1>Top header component</h1>
+    <HeaderTop />
     <NavBar />
     <BannerContainer >
       <CarouselItem

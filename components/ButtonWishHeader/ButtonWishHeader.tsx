@@ -5,7 +5,7 @@ import {IconContext} from 'react-icons';
 
 function ButtonWishHeader(props: {}){
         return (
-            <IconContext.Provider value={{className: 'shared-class', size: 50}}>
+            <IconContext.Provider value={{className: 'shared-class', size: "50"}}>
                 <div
                     onClick = {() => (
                         alert('Al Wishlist')

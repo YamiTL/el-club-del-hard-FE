@@ -8,7 +8,7 @@ function ButtonWishlist(props: {
 }){
     const [favourite, setFavourite] = useState<boolean>(false)
     return (
-        <IconContext.Provider value={{className: 'shared-class', size: 35}}>
+        <IconContext.Provider value={{className: 'shared-class', size: "35"}}>
             <div
                 onClick = { () => setFavourite(!favourite)}
                 className = {styles.wishlist}
