@@ -6,10 +6,10 @@ const styles = {
         flexDirection: 'row',
         justifyContent: 'space-around',
         alignItems: 'center',
-        padding: '10px 200px',
-        gap: '90px',
+        padding: '10px 50px',
+        gap: '150px',
         width: '100%',
-        height: '240px',
+        height: '150px',
         backgroundColor: '#FFFFFF',
     })
 }

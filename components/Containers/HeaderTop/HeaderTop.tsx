@@ -12,14 +12,16 @@ function HeaderTop(props: {}){
             <Image
                 src={require('./LogoCDH.png')}
                 alt={'logo'}
-                width={200}
-                height={200}
+                width={120}
+                height={120}
             />
             <div>
                 SearchBar
             </div>
-            <ButtonWishHeader />
-            <ButtonCartHeader />
+            <div style={{display: "flex"}}>
+                <ButtonWishHeader />
+                <ButtonCartHeader />
+            </div>
         </div>
     );
 }

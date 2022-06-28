@@ -17,11 +17,6 @@ const styles = {
     controls: style({
         display: 'flex',
         justifyContent: 'center',
-        nest: {
-            button: style({
-                margin: 10,
-            }
-        )}
     }),
 }
 
