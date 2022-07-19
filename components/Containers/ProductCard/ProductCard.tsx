@@ -37,8 +37,8 @@ function ProductCard(props: {
             <Image
                 src={props.imageURL}
                 alt={props.imageAlt}
-                width={380}
-                height={260}
+                width={280}
+                height={200}
             />
             <Text20P text={props.productName} />
             <Text20P text={props.description} />

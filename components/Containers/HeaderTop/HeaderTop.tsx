@@ -12,8 +12,8 @@ function HeaderTop(props: {}){
             <Image
                 src={require('./LogoCDH.png')}
                 alt={'logo'}
-                width={120}
-                height={120}
+                width={150}
+                height={150}
             />
             <div>
                 SearchBar

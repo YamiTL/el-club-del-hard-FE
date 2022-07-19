@@ -51,6 +51,18 @@ function ProductRow(props: {
                 />
                 <ProductCard 
                     labelPromo={'En Oferta'} 
+                    labelPromoStyle={'onSale'}
+                    labelPromoDisabled={true}
+                    labelStock={'En Stock'}
+                    labelStockStyle={'onStock'}
+                    imageURL={'https://mexx-img-2019.s3.amazonaws.com/tumb_procesador-cpu-ryzen_40369_1.jpeg?v252?v348?v928'}
+                    imageAlt={'Product Image'}
+                    productName={'Placa de video XFX AMD Radeon™ RX 6600 Speedster SWFT 210'}
+                    description={'¡12 Cuotas sin Interés!'}
+                    price={'$ 1400.00'}
+                />
+                <ProductCard 
+                    labelPromo={'En Oferta'} 
                     labelPromoStyle={'onSale'} 
                     labelPromoDisabled={false}
                     labelStock={'En Stock'}

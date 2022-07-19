@@ -9,7 +9,7 @@ const styles = {
         padding: "10px",
         gap: "10px",
 
-        width: "150px",
+        width: "137px",
         height: "40px",
 
         background: "#29A8B5",
@@ -24,7 +24,7 @@ const styles = {
         padding: "10px",
         gap: "10px",
 
-        width: "150px",
+        width: "137px",
         height: "40px",
 
         background: "#CC3721",

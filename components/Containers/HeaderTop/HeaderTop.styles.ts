@@ -9,7 +9,7 @@ const styles = {
         padding: '10px 50px',
         gap: '150px',
         width: '100%',
-        height: '150px',
+        height: '170px',
         backgroundColor: '#FFFFFF',
     })
 }
