@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Text36P_L.styles";	
+import styles from "./L_Text36P_B.styles";	
 
 export default function Text36P_L(props: {text:string, ariaHidden?: boolean}) {
     return (

@@ -1,1 +1,1 @@
-export {default} from './Text36P_L';
+export {default} from './L_Text36P_B';

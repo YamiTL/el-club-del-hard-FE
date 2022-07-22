@@ -1,1 +1,1 @@
-export { default } from './Text20P';
+export { default } from './L_Text14P_W';
