@@ -3,8 +3,9 @@ import Image from '../../../node_modules/next/image';
 import ProductCardRow from '../ProductCardRow/ProductCardRow';
 import LabelPromo from '../../LabelPromo/LabelPromo';
 import LabelStock from '../../LabelStock/LabelStock';
-import Text20P from '../../Texts/Center/20P_Buttons/Text20P';
-import Text24P from '../../Texts/Center/24P_Buttons/Text24P';
+import Text20P from '../../Texts/Center/20P/Text20P';
+import Text22P from '../../Texts/Center/22P/Text22P';
+import Text24P from '../../Texts/Center/24P/Text24P';
 import ProductCardRowButtons from '../ProductCardRowButtons/index';
 
 function ProductCard(props: {
@@ -43,7 +44,7 @@ function ProductCard(props: {
             <Text20P text={props.productName} />
             <Text20P text={props.description} />
             <ProductCardRow disabled={false}>
-                <Text24P text={props.price} />
+                <Text22P text={props.price} />
                 <ProductCardRowButtons />
             </ProductCardRow>
         </div>

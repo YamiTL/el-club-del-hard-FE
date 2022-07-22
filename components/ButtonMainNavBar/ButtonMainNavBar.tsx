@@ -1,5 +1,5 @@
 import styles from './ButtonMainNavBar.styles';
-import Text32P from '../Texts/Center/32P_Buttons/Text32P';
+import Text32P from '../Texts/Center/32P/Text32P';
 function ButtonMainNavBar(props: {
     text: string;
     disabled: boolean;

@@ -1,0 +1,1 @@
+export {default} from './L_Text36P_B';

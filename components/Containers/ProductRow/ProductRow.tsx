@@ -1,5 +1,5 @@
 import styles from './ProductRow.styles';
-import Text36P_L from '../../Texts/Left/36P_Title/Text36P_L';
+import Text36P_L from '../../Texts/Left/36P_Bold/L_Text36P_B';
 import ProductCard from '../ProductCard/ProductCard';
 import ButtonArrow from '../../ButtonArrow/ButtonArrow';
 
