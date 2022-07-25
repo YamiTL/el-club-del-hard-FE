@@ -1,26 +1,24 @@
 import {style} from 'typestyle';
 
 const styles = {
-    center: style({
+    container: style({
         display: 'flex',
         flexDirection: 'column',
+        alignItems: 'flex-start',
         justifyContent: 'center',
-        padding: '40px 10px',
+        padding: '10px',
         gap: '10px',
         width: '100%',
-        height: '127px',
     }),
-    left: style({
+    forToS: style({
         display: 'flex',
         flexDirection: 'column',
-        justifyContent: 'flex-start',
         alignItems: 'flex-start',
-        padding: '40px 10px',
-        marginRight: '260px',
-        gap: '10px',
-        width: '300px',
-        height: '100px',
-    })
+        justifyContent: 'center',
+        padding: '0px 20px',
+        gap: '0px',
+        width: '100%',
+    }),
 }
 
 export default styles;
