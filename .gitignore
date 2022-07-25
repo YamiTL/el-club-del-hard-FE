@@ -6,7 +6,8 @@
 .pnp.js
 
 pages/playground.tsx
-pages/LoginRegister.tsx
+pages/ProductCategory.tsx
+
 
 # testing
 /coverage

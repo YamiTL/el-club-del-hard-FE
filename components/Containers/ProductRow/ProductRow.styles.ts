@@ -2,7 +2,7 @@ import {style} from 'typestyle';
 
 const styles = {
     container: style({
-        display: 'flew',
+        display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
         padding: '20px',

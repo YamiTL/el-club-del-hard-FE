@@ -1,5 +1,5 @@
 import styles from './ButtonMainNavBar.styles';
-import Text32P from '../Texts/Center/32P/Text32P';
+import Text32P_W from '../Texts/Center/32P_White/Text32P_W';
 function ButtonMainNavBar(props: {
     text: string;
     disabled: boolean;
@@ -12,7 +12,7 @@ function ButtonMainNavBar(props: {
             onClick = { () => props.onClick()}
             className = {styles.mainNavBarButton}
         >
-            {props.disabled ? null : <Text32P text={props.text} />}
+            {props.disabled ? null : <Text32P_W text={props.text} />}
         </div>
     );
 }
