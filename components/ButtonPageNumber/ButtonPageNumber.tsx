@@ -8,7 +8,9 @@ function ButtonPageNumber(props: {
     let currentStyle = props.style
     return (
         <div
-            onClick = { () => props.onClick()}
+            onClick = {() => (
+                alert('Redirection')
+            )}
             className = {currentStyle=='current' ? styles.current : styles.other}
         >
             <Text16P_W text={props.indexNumber} />

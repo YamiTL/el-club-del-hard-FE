@@ -12,6 +12,11 @@ const styles = {
         height: "40px",
         background: "#63A8D4",
         borderRadius: "50px",
+        $nest:{
+            '&:hover':{
+                cursor: 'pointer'
+            }
+        }
     }),
     other: style({
         display: "flex",
@@ -24,6 +29,11 @@ const styles = {
         height: "40px",
         background: "#414141",
         borderRadius: "50px",
+        $nest:{
+            '&:hover':{
+                cursor: 'pointer'
+            }
+        }
     }),
     final: style({
         display: "flex",
@@ -36,6 +46,11 @@ const styles = {
         height: "40px",
         background: "#414141",
         borderRadius: "8px",
+        $nest:{
+            '&:hover':{
+                cursor: 'pointer'
+            }
+        }
     }),
     disabled: style({
         display: 'none',
