@@ -12,9 +12,6 @@ function ButtonFilterSelector(props: {
     return (
         <IconContext.Provider value={{className: 'shared-class', size: "25"}}>
             <div
-                onClick = {() => (
-                    alert('Filtro Seleccionado')
-                )}
                 className = {currentStyle=='selected' ? styles.selected : styles.notSelected}
             >
                 <BsRecordCircleFill />

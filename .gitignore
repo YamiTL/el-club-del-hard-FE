@@ -7,7 +7,7 @@
 
 pages/playground.tsx
 pages/ProductCategory.tsx
-
+pages/UserAccess.tsx
 
 # testing
 /coverage
