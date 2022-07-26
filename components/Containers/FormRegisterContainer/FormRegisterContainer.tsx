@@ -5,9 +5,6 @@ import L_Text20P from '../../Texts/Left/20P/L_Text20P';
 import InputLoginRegister from '../../InputLoginRegister/InputLoginRegister';
 import ButtonPasswordEye from '../../ButtonPasswordEye/ButtonPasswordEye';
 import ButtonBlue from '../../ButtonBlue/ButtonBlue';
-import ClickableContainer from '../ClickableContainer/ClickableContainer';
-import ButtonBoxCheck from '../../ButtonBoxCheck/ButtonBoxCheck';
-import Text16P from '../../Texts/Center/16P/Text16P';
 
 function FormRegisterContainer(props: {
     style: string;
